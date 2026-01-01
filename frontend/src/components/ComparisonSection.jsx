@@ -23,68 +23,35 @@ const ComparisonSection = () => {
               </h3>
               
               {/* Tilted Cards Illustration */}
-              <div className="bg-gradient-to-br from-purple-100 via-purple-50 to-white rounded-2xl p-4 mb-5 relative h-52 md:h-48">
-                {/* Grid layout for mobile, absolute for desktop */}
-                <div className="grid grid-cols-2 gap-3 h-full md:hidden">
-                  {/* Mobile: Tilted card 1 - Missed Calls */}
-                  <div className="bg-white rounded-xl shadow-md transform -rotate-3 flex flex-col items-center justify-center p-3">
-                    <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mb-2 relative">
-                      <Phone className="w-5 h-5 text-purple-500" />
-                      <X className="w-3 h-3 text-red-500 absolute -top-0.5 -right-0.5 bg-white rounded-full" />
-                    </div>
-                    <span className="text-xs font-bold text-purple-900 text-center">Missed<br/>Calls</span>
-                  </div>
-                  
-                  {/* Mobile: Tilted card 2 - Slow Responses */}
-                  <div className="bg-white rounded-xl shadow-md transform rotate-3 flex flex-col items-center justify-center p-3">
-                    <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mb-2">
-                      <Clock className="w-5 h-5 text-purple-500" />
-                    </div>
-                    <span className="text-xs font-bold text-purple-900 text-center">Slow<br/>Responses</span>
-                  </div>
-                  
-                  {/* Mobile: Tilted card 3 - Unqualified Leads */}
-                  <div className="bg-white rounded-xl shadow-md transform rotate-3 flex flex-col items-center justify-center p-3">
-                    <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mb-2">
-                      <Users className="w-5 h-5 text-purple-500" />
-                    </div>
-                    <span className="text-xs font-bold text-purple-900 text-center">Unqualified<br/>Leads</span>
-                  </div>
-                  
-                  {/* Mobile: Tilted card 4 - Missed Opportunities */}
-                  <div className="bg-white rounded-xl shadow-md transform -rotate-3 flex flex-col items-center justify-center p-3">
-                    <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mb-2">
-                      <Target className="w-5 h-5 text-purple-500" />
-                    </div>
-                    <span className="text-xs font-bold text-purple-900 text-center">Missed<br/>Opportunities</span>
-                  </div>
-                </div>
-
-                {/* Desktop: Absolute positioned tilted cards */}
-                <div className="hidden md:block h-full relative">
-                  <div className="absolute left-2 top-2 w-20 h-28 bg-white rounded-xl shadow-lg transform -rotate-12 flex flex-col items-center justify-center p-2">
+              <div className="bg-gradient-to-br from-purple-100 via-purple-50 to-white rounded-2xl p-4 mb-5 h-48">
+                <div className="grid grid-cols-2 gap-3 h-full">
+                  {/* Tilted card 1 - Missed Calls */}
+                  <div className="bg-white rounded-xl shadow-md transform -rotate-3 flex flex-col items-center justify-center p-2">
                     <div className="w-9 h-9 bg-purple-100 rounded-full flex items-center justify-center mb-1 relative">
                       <Phone className="w-4 h-4 text-purple-500" />
-                      <X className="w-3 h-3 text-red-500 absolute -top-0.5 -right-0.5" />
+                      <X className="w-3 h-3 text-red-500 absolute -top-0.5 -right-0.5 bg-white rounded-full" />
                     </div>
                     <span className="text-[10px] font-bold text-purple-900 text-center">Missed<br/>Calls</span>
                   </div>
                   
-                  <div className="absolute left-16 top-0 w-20 h-28 bg-white rounded-xl shadow-lg transform rotate-6 flex flex-col items-center justify-center p-2 z-10">
+                  {/* Tilted card 2 - Slow Responses */}
+                  <div className="bg-white rounded-xl shadow-md transform rotate-3 flex flex-col items-center justify-center p-2">
                     <div className="w-9 h-9 bg-purple-100 rounded-full flex items-center justify-center mb-1">
                       <Clock className="w-4 h-4 text-purple-500" />
                     </div>
                     <span className="text-[10px] font-bold text-purple-900 text-center">Slow<br/>Responses</span>
                   </div>
                   
-                  <div className="absolute right-14 top-2 w-20 h-28 bg-white rounded-xl shadow-lg transform -rotate-6 flex flex-col items-center justify-center p-2">
+                  {/* Tilted card 3 - Unqualified Leads */}
+                  <div className="bg-white rounded-xl shadow-md transform rotate-3 flex flex-col items-center justify-center p-2">
                     <div className="w-9 h-9 bg-purple-100 rounded-full flex items-center justify-center mb-1">
                       <Users className="w-4 h-4 text-purple-500" />
                     </div>
                     <span className="text-[10px] font-bold text-purple-900 text-center">Unqualified<br/>Leads</span>
                   </div>
                   
-                  <div className="absolute right-2 top-8 w-20 h-28 bg-white rounded-xl shadow-lg transform rotate-12 flex flex-col items-center justify-center p-2 z-10">
+                  {/* Tilted card 4 - Missed Opportunities */}
+                  <div className="bg-white rounded-xl shadow-md transform -rotate-3 flex flex-col items-center justify-center p-2">
                     <div className="w-9 h-9 bg-purple-100 rounded-full flex items-center justify-center mb-1">
                       <Target className="w-4 h-4 text-purple-500" />
                     </div>
