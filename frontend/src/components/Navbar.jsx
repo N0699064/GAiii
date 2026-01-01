@@ -17,18 +17,18 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 px-4 transition-all duration-300 ${
       scrolled ? 'pt-2' : 'pt-4'
     }`}>
-      <div className={`mx-auto transition-all duration-300 ${
+      <div className={`max-w-4xl mx-auto transition-all duration-300 ${
         scrolled 
-          ? 'max-w-5xl bg-white shadow-xl' 
-          : 'max-w-4xl bg-white/90 backdrop-blur-md shadow-md'
+          ? 'bg-white shadow-xl' 
+          : 'bg-white/90 backdrop-blur-md shadow-md'
       } rounded-2xl px-6`}>
         <div className={`flex items-center justify-between transition-all duration-300 ${
-          scrolled ? 'h-12 md:h-14' : 'h-14 md:h-16'
+          scrolled ? 'h-11 md:h-12' : 'h-14 md:h-16'
         }`}>
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
             <div className={`relative transition-all duration-300 ${
-              scrolled ? 'w-7 h-7 md:w-8 md:h-8' : 'w-8 h-8 md:w-10 md:h-10'
+              scrolled ? 'w-6 h-6 md:w-7 md:h-7' : 'w-8 h-8 md:w-10 md:h-10'
             }`}>
               <svg viewBox="0 0 40 40" className="w-full h-full">
                 <defs>
