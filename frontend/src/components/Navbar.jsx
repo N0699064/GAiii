@@ -37,9 +37,7 @@ const Navbar = () => {
                 <path d="M20 12 L28 26 L12 26 Z" fill="white" opacity="0.3" />
               </svg>
             </div>
-            <span className={`font-bold text-gray-900 transition-all duration-300 ${
-              scrolled ? 'text-base md:text-lg' : 'text-lg md:text-xl'
-            }`}>FutureFlow AI</span>
+            <span className="font-bold text-lg md:text-xl text-gray-900">FutureFlow AI</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -48,18 +46,14 @@ const Navbar = () => {
               <a
                 key={link.label}
                 href={link.href}
-                className={`text-gray-600 hover:text-gray-900 transition-all font-medium ${
-                  scrolled ? 'text-xs' : 'text-sm'
-                }`}
+                className="text-gray-600 hover:text-gray-900 transition-colors font-medium text-sm"
               >
                 {link.label}
               </a>
             ))}
             <a
               href="#booking"
-              className={`bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-medium transition-all hover:shadow-lg hover:shadow-purple-500/25 ${
-                scrolled ? 'px-4 py-2 text-xs' : 'px-5 py-2.5 text-sm'
-              }`}
+              className="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2.5 rounded-lg font-medium text-sm transition-all hover:shadow-lg hover:shadow-purple-500/25"
             >
               Book a Demo
             </a>
