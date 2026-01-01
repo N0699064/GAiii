@@ -23,42 +23,38 @@ const ComparisonSection = () => {
               </h3>
               
               {/* Tilted Cards Illustration */}
-              <div className="bg-gradient-to-br from-purple-100 via-purple-50 to-white rounded-2xl p-5 mb-6 relative h-48 overflow-hidden">
+              <div className="bg-gradient-to-br from-purple-100 via-purple-50 to-white rounded-2xl p-4 mb-6 relative h-44">
                 {/* Tilted card 1 - Missed Calls */}
-                <div className="absolute left-4 top-8 w-28 h-36 bg-white rounded-xl shadow-lg transform -rotate-12 flex flex-col items-center justify-center p-3">
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-2 relative">
-                    <Phone className="w-6 h-6 text-purple-500" />
-                    <X className="w-4 h-4 text-red-500 absolute -top-1 -right-1" />
+                <div className="absolute left-2 top-4 w-20 h-28 bg-white rounded-xl shadow-lg transform -rotate-12 flex flex-col items-center justify-center p-2">
+                  <div className="w-9 h-9 bg-purple-100 rounded-full flex items-center justify-center mb-1 relative">
+                    <Phone className="w-4 h-4 text-purple-500" />
+                    <X className="w-3 h-3 text-red-500 absolute -top-0.5 -right-0.5" />
                   </div>
-                  <span className="text-xs font-bold text-purple-900 text-center">Missed<br/>Calls</span>
+                  <span className="text-[10px] font-bold text-purple-900 text-center">Missed<br/>Calls</span>
                 </div>
                 
                 {/* Tilted card 2 - Slow Responses */}
-                <div className="absolute left-20 top-4 w-28 h-36 bg-white rounded-xl shadow-lg transform rotate-6 flex flex-col items-center justify-center p-3 z-10">
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-2">
-                    <svg className="w-6 h-6 text-purple-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.9 0 1.8-.1 2.6-.3" />
-                      <path d="M15 19c1.8-1.4 3-3.6 3-6" />
-                      <path d="M19 9a7 7 0 0 0-7-7" />
-                    </svg>
+                <div className="absolute left-16 top-2 w-20 h-28 bg-white rounded-xl shadow-lg transform rotate-6 flex flex-col items-center justify-center p-2 z-10">
+                  <div className="w-9 h-9 bg-purple-100 rounded-full flex items-center justify-center mb-1">
+                    <Clock className="w-4 h-4 text-purple-500" />
                   </div>
-                  <span className="text-xs font-bold text-purple-900 text-center">Slow<br/>Responses</span>
+                  <span className="text-[10px] font-bold text-purple-900 text-center">Slow<br/>Responses</span>
                 </div>
                 
                 {/* Tilted card 3 - Unqualified Leads */}
-                <div className="absolute right-16 top-8 w-28 h-36 bg-white rounded-xl shadow-lg transform -rotate-6 flex flex-col items-center justify-center p-3">
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-2">
-                    <Users className="w-6 h-6 text-purple-500" />
+                <div className="absolute right-14 top-4 w-20 h-28 bg-white rounded-xl shadow-lg transform -rotate-6 flex flex-col items-center justify-center p-2">
+                  <div className="w-9 h-9 bg-purple-100 rounded-full flex items-center justify-center mb-1">
+                    <Users className="w-4 h-4 text-purple-500" />
                   </div>
-                  <span className="text-xs font-bold text-purple-900 text-center">Unqualified<br/>Leads</span>
+                  <span className="text-[10px] font-bold text-purple-900 text-center">Unqualified<br/>Leads</span>
                 </div>
                 
                 {/* Tilted card 4 - Missed Opportunities */}
-                <div className="absolute right-4 top-16 w-28 h-36 bg-white rounded-xl shadow-lg transform rotate-12 flex flex-col items-center justify-center p-3 z-10">
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-2">
-                    <Target className="w-6 h-6 text-purple-500" />
+                <div className="absolute right-2 top-10 w-20 h-28 bg-white rounded-xl shadow-lg transform rotate-12 flex flex-col items-center justify-center p-2 z-10">
+                  <div className="w-9 h-9 bg-purple-100 rounded-full flex items-center justify-center mb-1">
+                    <Target className="w-4 h-4 text-purple-500" />
                   </div>
-                  <span className="text-xs font-bold text-purple-900 text-center italic">Missed<br/>Opportunities</span>
+                  <span className="text-[10px] font-bold text-purple-900 text-center italic">Missed<br/>Opportunities</span>
                 </div>
               </div>
 
