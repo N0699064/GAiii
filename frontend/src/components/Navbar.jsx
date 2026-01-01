@@ -50,7 +50,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="#booking"
+              href="/book-demo"
               className="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2.5 rounded-lg font-medium text-sm transition-all hover:shadow-lg hover:shadow-purple-500/25"
             >
               Book a Demo
