@@ -3,41 +3,45 @@ import React from 'react';
 const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background with gradient waves */}
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-50 via-white to-purple-50">
+      {/* Background with gradient that fades out at bottom */}
+      <div className="absolute inset-0">
+        {/* Purple gradient at top, fading to white at bottom */}
+        <div className="absolute inset-0 bg-gradient-to-b from-purple-100 via-purple-50 to-white"></div>
+        
         {/* Decorative wave shapes */}
-        <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
-          <svg
-            className="absolute top-0 left-0 w-full h-full"
-            viewBox="0 0 1440 800"
-            preserveAspectRatio="none"
-          >
-            <defs>
-              <linearGradient id="waveGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#E9D5FF" stopOpacity="0.4" />
-                <stop offset="100%" stopColor="#F3E8FF" stopOpacity="0.2" />
-              </linearGradient>
-              <linearGradient id="waveGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#DDD6FE" stopOpacity="0.3" />
-                <stop offset="100%" stopColor="#E9D5FF" stopOpacity="0.1" />
-              </linearGradient>
-            </defs>
-            {/* Left wave */}
-            <path
-              d="M-100,200 Q200,100 300,300 T500,400 T200,600 T-100,500 Z"
-              fill="url(#waveGradient1)"
-              className="animate-pulse"
-              style={{ animationDuration: '8s' }}
-            />
-            {/* Right wave */}
-            <path
-              d="M1540,200 Q1240,300 1140,200 T940,300 T1240,500 T1540,400 Z"
-              fill="url(#waveGradient2)"
-              className="animate-pulse"
-              style={{ animationDuration: '10s', animationDelay: '1s' }}
-            />
-          </svg>
-        </div>
+        <svg
+          className="absolute top-0 left-0 w-full h-full"
+          viewBox="0 0 1440 800"
+          preserveAspectRatio="none"
+        >
+          <defs>
+            <linearGradient id="waveGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#E9D5FF" stopOpacity="0.5" />
+              <stop offset="100%" stopColor="#F3E8FF" stopOpacity="0" />
+            </linearGradient>
+            <linearGradient id="waveGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#DDD6FE" stopOpacity="0.4" />
+              <stop offset="100%" stopColor="#E9D5FF" stopOpacity="0" />
+            </linearGradient>
+          </defs>
+          {/* Left wave - fades out */}
+          <path
+            d="M-100,100 Q200,50 300,200 T400,350 T200,500 T-100,400 Z"
+            fill="url(#waveGradient1)"
+            className="animate-pulse"
+            style={{ animationDuration: '8s' }}
+          />
+          {/* Right wave - fades out */}
+          <path
+            d="M1540,100 Q1240,200 1140,100 T940,200 T1140,400 T1540,300 Z"
+            fill="url(#waveGradient2)"
+            className="animate-pulse"
+            style={{ animationDuration: '10s', animationDelay: '1s' }}
+          />
+        </svg>
+        
+        {/* Additional fade overlay at bottom */}
+        <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-white to-transparent"></div>
       </div>
 
       {/* Content */}
