@@ -32,7 +32,7 @@ const Footer = () => {
 
           {/* CTA */}
           <a
-            href="#booking"
+            href="/book-demo"
             className="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2.5 rounded-lg font-medium transition-all"
           >
             Book a Demo
