@@ -21,7 +21,7 @@ const IntegrationSection = () => {
               With the power of API's, we can integrate the FutureFlow system directly into your current tech stack
             </p>
             <a
-              href="#booking"
+              href="/book-demo"
               className="inline-block bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold transition-all hover:shadow-lg"
             >
               Book a Demo
