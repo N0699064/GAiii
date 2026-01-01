@@ -22,7 +22,7 @@ const Navbar = () => {
           ? 'max-w-3xl bg-white shadow-xl' 
           : 'max-w-4xl bg-white/90 backdrop-blur-md shadow-md'
       } rounded-2xl px-6`}>
-        <div className="flex items-center justify-between h-14 md:h-16">
+        <div className="flex items-center justify-between h-16 md:h-[72px]">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
             <div className="w-8 h-8 md:w-10 md:h-10 relative">
