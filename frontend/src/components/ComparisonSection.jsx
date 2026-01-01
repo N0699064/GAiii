@@ -100,7 +100,7 @@ const ComparisonSection = () => {
               </div>
               
               {/* Grid Illustration */}
-              <div className="bg-gradient-to-br from-purple-100 via-purple-50 to-white rounded-2xl p-6 mb-8 h-56">
+              <div className="bg-gradient-to-br from-purple-100 via-purple-50 to-white rounded-2xl p-5 mb-6 h-48">
                 <div className="grid grid-cols-2 gap-4 h-full">
                   <div className="bg-white rounded-xl shadow-sm flex flex-col items-center justify-center p-4">
                     <div className="w-12 h-12 bg-purple-50 rounded-xl flex items-center justify-center mb-3">
