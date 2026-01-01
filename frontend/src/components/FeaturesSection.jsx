@@ -7,31 +7,31 @@ const FeaturesSection = () => {
     switch (type) {
       case 'crm':
         return (
-          <div className="h-56 bg-gradient-to-br from-purple-50 to-white rounded-xl overflow-hidden p-2">
+          <div className="h-56 bg-gradient-to-br from-purple-50 to-white rounded-xl overflow-hidden">
             <img 
               src="https://customer-assets.emergentagent.com/job_c9bd9f06-9dcb-43af-b6e3-be6da472a258/artifacts/1qo7w9xq_Features_CRMIntegration.webp" 
               alt="CRM Integration"
-              className="w-full h-full object-contain"
+              className="w-full h-full object-fill"
             />
           </div>
         );
       case 'calendar':
         return (
-          <div className="h-56 bg-gradient-to-br from-purple-100 to-purple-50 rounded-xl overflow-hidden p-2">
+          <div className="h-56 bg-gradient-to-br from-purple-100 to-purple-50 rounded-xl overflow-hidden">
             <img 
               src="https://customer-assets.emergentagent.com/job_c9bd9f06-9dcb-43af-b6e3-be6da472a258/artifacts/481p7aq0_Features_CalendarBooking.webp" 
               alt="Calendar Booking"
-              className="w-full h-full object-contain"
+              className="w-full h-full object-fill"
             />
           </div>
         );
       case 'lead':
         return (
-          <div className="h-56 bg-white rounded-xl overflow-hidden p-2">
+          <div className="h-56 bg-white rounded-xl overflow-hidden">
             <img 
               src="https://customer-assets.emergentagent.com/job_c9bd9f06-9dcb-43af-b6e3-be6da472a258/artifacts/cymyn9td_Features_LeadQualification.webp" 
               alt="Lead Qualification"
-              className="w-full h-full object-contain"
+              className="w-full h-full object-fill"
             />
           </div>
         );
