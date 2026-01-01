@@ -14,15 +14,13 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 px-4 transition-all duration-300 ${
-      scrolled ? 'pt-2' : 'pt-4'
-    }`}>
+    <nav className="fixed top-0 left-0 right-0 z-50 px-4 pt-4">
       <div className={`mx-auto transition-all duration-300 ${
         scrolled 
           ? 'max-w-3xl bg-white shadow-xl' 
           : 'max-w-4xl bg-white/90 backdrop-blur-md shadow-md'
       } rounded-2xl px-6`}>
-        <div className="flex items-center justify-between h-16 md:h-[72px]">
+        <div className="flex items-center justify-between h-[70px] md:h-[80px]">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
             <div className="w-8 h-8 md:w-10 md:h-10 relative">
