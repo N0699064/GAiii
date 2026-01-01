@@ -23,7 +23,7 @@ const ComparisonSection = () => {
               </h3>
               
               {/* Tilted Cards Illustration */}
-              <div className="bg-gradient-to-br from-purple-100 via-purple-50 to-white rounded-2xl p-6 mb-8 relative h-56 overflow-hidden">
+              <div className="bg-gradient-to-br from-purple-100 via-purple-50 to-white rounded-2xl p-5 mb-6 relative h-48 overflow-hidden">
                 {/* Tilted card 1 - Missed Calls */}
                 <div className="absolute left-4 top-8 w-28 h-36 bg-white rounded-xl shadow-lg transform -rotate-12 flex flex-col items-center justify-center p-3">
                   <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-2 relative">
