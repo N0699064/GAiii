@@ -1,8 +1,8 @@
-// Mock data for FutureFlow AI Clone
+// Mock data for GoldrushAi Clone
 
 export const navLinks = [
   { label: 'Home', href: '#home' },
-  { label: 'What We Do', href: '#features' },
+  { label: 'What We Do', href: '#comparison' },
   { label: 'Contact', href: '#booking' }
 ];
 

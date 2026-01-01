@@ -7,7 +7,7 @@ const BookingPage = () => {
   const googleCalendarLink = "https://calendar.app.google/GChpUApsh7vgbFEv7";
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-[#fff7e0] to-white">
       {/* Header */}
       <div className="bg-white shadow-sm">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
@@ -22,18 +22,13 @@ const BookingPage = () => {
           {/* Logo */}
           <a href="/" className="flex items-center gap-2">
             <div className="w-8 h-8">
-              <svg viewBox="0 0 40 40" className="w-full h-full">
-                <defs>
-                  <linearGradient id="bookingPageLogo" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#8B5CF6" />
-                    <stop offset="100%" stopColor="#7C3AED" />
-                  </linearGradient>
-                </defs>
-                <path d="M20 5 L35 30 L5 30 Z" fill="url(#bookingPageLogo)" />
-                <path d="M20 12 L28 26 L12 26 Z" fill="white" opacity="0.3" />
-              </svg>
+              <img
+                src="/gold-head-logo.png"
+                alt="GoldrushAi"
+                className="w-full h-full object-contain scale-110"
+              />
             </div>
-            <span className="font-bold text-lg text-gray-900">FutureFlow AI</span>
+            <span className="font-bold text-lg text-gray-900">GoldrushAi</span>
           </a>
           
           <div className="w-24"></div>
@@ -47,7 +42,7 @@ const BookingPage = () => {
             Book a Free Introduction Call
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Schedule a 30-minute call to learn how FutureFlow AI can help automate your lead nurturing and save you time.
+            Schedule a 30-minute call to learn how GoldrushAi can help automate your lead nurturing and save you time.
           </p>
         </div>
 
@@ -58,7 +53,7 @@ const BookingPage = () => {
             width="100%"
             height="700"
             frameBorder="0"
-            title="Book a meeting with FutureFlow AI"
+            title="Book a meeting with GoldrushAi"
             className="w-full"
           ></iframe>
         </div>

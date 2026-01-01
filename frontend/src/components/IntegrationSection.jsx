@@ -3,22 +3,22 @@ import React from 'react';
 const IntegrationSection = () => {
   return (
     <section className="relative py-8 md:py-10 overflow-hidden">
-      {/* Dark purple gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900"></div>
+      {/* Light gold gradient background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[#fff7e0] via-[#fbe8a1] to-[#f7d046]"></div>
       
       {/* Decorative blur elements */}
-      <div className="absolute top-1/4 right-1/4 w-48 h-48 bg-purple-500/20 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-1/4 left-1/4 w-48 h-48 bg-indigo-500/15 rounded-full blur-3xl"></div>
+      <div className="absolute top-1/4 right-1/4 w-48 h-48 bg-[#f7d046]/35 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-1/4 left-1/4 w-48 h-48 bg-[#fbe8a1]/30 rounded-full blur-3xl"></div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 md:px-12">
         <div className="grid lg:grid-cols-2 gap-4 md:gap-6 items-center">
           {/* Left Content */}
           <div className="text-center lg:text-left">
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-3 leading-tight">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 leading-tight">
               We can integrate seamlessly into your current workflow
             </h2>
-            <p className="text-purple-200 text-sm md:text-base mb-4">
-              With the power of API's, we can integrate the FutureFlow system directly into your current tech stack
+            <p className="text-gray-600 text-sm md:text-base mb-4">
+              With the power of API's, we can integrate the GoldrushAi system directly into your current tech stack
             </p>
             <a
               href="/book-demo"

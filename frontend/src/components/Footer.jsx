@@ -9,18 +9,13 @@ const Footer = () => {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
             <div className="w-8 h-8">
-              <svg viewBox="0 0 40 40" className="w-full h-full">
-                <defs>
-                  <linearGradient id="footerLogoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#A78BFA" />
-                    <stop offset="100%" stopColor="#8B5CF6" />
-                  </linearGradient>
-                </defs>
-                <path d="M20 5 L35 30 L5 30 Z" fill="url(#footerLogoGradient)" />
-                <path d="M20 12 L28 26 L12 26 Z" fill="white" opacity="0.3" />
-              </svg>
+              <img
+                src="/gold-head-logo.png"
+                alt="GoldrushAi"
+                className="w-full h-full object-contain scale-110"
+              />
             </div>
-            <span className="font-bold text-lg">FutureFlow AI</span>
+            <span className="font-bold text-lg">GoldrushAi</span>
           </a>
 
           {/* Links */}
@@ -33,14 +28,14 @@ const Footer = () => {
           {/* CTA */}
           <a
             href="/book-demo"
-            className="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2.5 rounded-lg font-medium transition-all"
+            className="bg-gradient-to-r from-[#f7d046] to-[#d4af37] hover:from-[#f2c14e] hover:to-[#c89a1c] text-gray-900 px-5 py-2.5 rounded-lg font-medium transition-all"
           >
             Book a Demo
           </a>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} FutureFlow AI. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} GoldrushAi. All rights reserved.</p>
         </div>
       </div>
     </footer>

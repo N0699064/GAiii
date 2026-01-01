@@ -5,8 +5,8 @@ const HeroSection = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with gradient that fades out at bottom */}
       <div className="absolute inset-0">
-        {/* Purple gradient at top, fading to white at bottom */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-100 via-purple-50 to-white"></div>
+        {/* Light gold gradient at top, fading to white at bottom */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#fff7e0] via-[#fff3c4] to-white"></div>
         
         {/* Decorative wave shapes */}
         <svg
@@ -16,12 +16,12 @@ const HeroSection = () => {
         >
           <defs>
             <linearGradient id="waveGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#E9D5FF" stopOpacity="0.5" />
-              <stop offset="100%" stopColor="#F3E8FF" stopOpacity="0" />
+              <stop offset="0%" stopColor="#f7d046" stopOpacity="0.45" />
+              <stop offset="100%" stopColor="#fff7e0" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="waveGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#DDD6FE" stopOpacity="0.4" />
-              <stop offset="100%" stopColor="#E9D5FF" stopOpacity="0" />
+              <stop offset="0%" stopColor="#f2c14e" stopOpacity="0.38" />
+              <stop offset="100%" stopColor="#fff3c4" stopOpacity="0" />
             </linearGradient>
           </defs>
           {/* Left wave - fades out */}
@@ -49,7 +49,7 @@ const HeroSection = () => {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
           AI Voice Agents,
           <br />
-          Made <span className="text-purple-600 italic">Simple</span>
+          Made <span className="text-[#d4af37] italic">Simple</span>
         </h1>
         <p className="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
           Save Time, Make More Money, And Never Miss An
@@ -58,7 +58,7 @@ const HeroSection = () => {
         </p>
         <a
           href="/book-demo"
-          className="inline-block bg-purple-600 hover:bg-purple-700 text-white px-8 py-3.5 rounded-lg font-semibold text-lg transition-all hover:shadow-xl hover:shadow-purple-500/30 hover:-translate-y-0.5"
+          className="inline-block bg-gradient-to-r from-[#f7d046] to-[#d4af37] hover:from-[#f2c14e] hover:to-[#c89a1c] text-gray-900 px-8 py-3.5 rounded-lg font-semibold text-lg transition-all hover:shadow-xl hover:shadow-[#f7d046]/50 hover:-translate-y-0.5"
         >
           Book a Demo
         </a>

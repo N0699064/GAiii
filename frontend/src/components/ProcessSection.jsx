@@ -3,11 +3,11 @@ import { processSteps } from '../data/mockData';
 
 const ProcessSection = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-purple-50 to-white">
+    <section className="py-20 px-4 bg-gradient-to-b from-gray-100 to-white">
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="text-purple-600 font-medium">Process</span>
+          <span className="text-[#d4af37] font-medium">Process</span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
             How It Works?
           </h2>
@@ -20,7 +20,7 @@ const ProcessSection = () => {
               {/* Large Number */}
               <div className="mb-6">
                 <span 
-                  className="text-7xl md:text-8xl font-bold text-purple-600 italic"
+                  className="text-7xl md:text-8xl font-bold text-[#d4af37] italic"
                   style={{ fontFamily: 'Georgia, serif' }}
                 >
                   {step.number}

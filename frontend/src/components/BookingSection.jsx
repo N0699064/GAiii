@@ -19,20 +19,15 @@ const BookingSection = () => {
             <div className="md:col-span-2 p-6 md:p-8 border-b md:border-b-0 md:border-r border-gray-100">
               {/* Logo */}
               <div className="w-12 h-12 mb-4">
-                <svg viewBox="0 0 40 40" className="w-full h-full">
-                  <defs>
-                    <linearGradient id="bookingLogoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#8B5CF6" />
-                      <stop offset="100%" stopColor="#7C3AED" />
-                    </linearGradient>
-                  </defs>
-                  <path d="M20 5 L35 30 L5 30 Z" fill="url(#bookingLogoGradient)" />
-                  <path d="M20 12 L28 26 L12 26 Z" fill="white" opacity="0.3" />
-                </svg>
+                <img
+                  src="/gold-head-logo.png"
+                  alt="GoldrushAi"
+                  className="w-full h-full object-contain scale-110"
+                />
               </div>
 
               <h3 className="text-xl font-bold text-gray-900 mb-4">
-                FutureFlow AI - Introduction Call
+                GoldrushAi - Introduction Call
               </h3>
 
               <div className="space-y-3 text-gray-600">
