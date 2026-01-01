@@ -57,7 +57,7 @@ const HeroSection = () => {
           Opportunity By Automating Lead Nurturing With AI
         </p>
         <a
-          href="#booking"
+          href="/book-demo"
           className="inline-block bg-purple-600 hover:bg-purple-700 text-white px-8 py-3.5 rounded-lg font-semibold text-lg transition-all hover:shadow-xl hover:shadow-purple-500/30 hover:-translate-y-0.5"
         >
           Book a Demo
