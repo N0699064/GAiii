@@ -1,6 +1,5 @@
 import React from 'react';
 import { features } from '../data/mockData';
-import { Phone, PhoneIncoming, PhoneCall, Check, X } from 'lucide-react';
 
 const FeaturesSection = () => {
   const getFeatureIllustration = (type) => {
