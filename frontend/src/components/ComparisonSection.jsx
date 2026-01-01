@@ -76,7 +76,7 @@ const ComparisonSection = () => {
           </div>
 
           {/* FutureFlow System Card */}
-          <div className="bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden">
+          <div className="bg-white rounded-3xl shadow-xl shadow-gray-200/50 border border-gray-100 overflow-hidden">
             <div className="p-5 md:p-8">
               <div className="flex items-center justify-center gap-2 mb-4 md:mb-6">
                 <div className="w-6 h-6 md:w-7 md:h-7">
