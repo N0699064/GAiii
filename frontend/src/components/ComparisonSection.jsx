@@ -16,7 +16,7 @@ const ComparisonSection = () => {
         {/* Comparison Cards */}
         <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
           {/* Traditional Sales Card */}
-          <div className="bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden">
+          <div className="bg-white rounded-3xl shadow-xl shadow-gray-200/50 border border-gray-100 overflow-hidden">
             <div className="p-5 md:p-8">
               <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 md:mb-6 text-center">
                 Traditional Sales Systems
