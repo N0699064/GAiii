@@ -86,7 +86,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="#booking"
+              href="/book-demo"
               className="block mt-4 bg-purple-600 text-white text-center px-5 py-2.5 rounded-lg font-medium"
               onClick={() => setMobileMenuOpen(false)}
             >
