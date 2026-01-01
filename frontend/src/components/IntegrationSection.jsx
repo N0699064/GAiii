@@ -22,7 +22,7 @@ const IntegrationSection = () => {
             </p>
             <a
               href="#booking"
-              className="inline-block bg-gray-900 hover:bg-gray-800 text-white px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:shadow-lg"
+              className="inline-block bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold transition-all hover:shadow-lg"
             >
               Book a Demo
             </a>
