@@ -97,31 +97,31 @@ const ComparisonSection = () => {
               </div>
               
               {/* Grid Illustration */}
-              <div className="bg-gradient-to-br from-purple-100 via-purple-50 to-white rounded-2xl p-4 mb-5 h-52 md:h-48">
+              <div className="bg-gradient-to-br from-purple-100 via-purple-50 to-white rounded-2xl p-4 mb-5 h-48">
                 <div className="grid grid-cols-2 gap-3 h-full">
-                  <div className="bg-white rounded-xl shadow-sm flex flex-col items-center justify-center p-3">
-                    <div className="w-10 h-10 md:w-10 md:h-10 bg-purple-50 rounded-xl flex items-center justify-center mb-2">
-                      <Phone className="w-5 h-5 text-purple-500" />
+                  <div className="bg-white rounded-xl shadow-sm flex flex-col items-center justify-center p-2">
+                    <div className="w-9 h-9 bg-purple-50 rounded-xl flex items-center justify-center mb-1">
+                      <Phone className="w-4 h-4 text-purple-500" />
                     </div>
-                    <span className="text-xs md:text-xs font-bold text-gray-800 text-center">Never Miss<br/>A Lead</span>
+                    <span className="text-[10px] font-bold text-gray-800 text-center">Never Miss<br/>A Lead</span>
                   </div>
-                  <div className="bg-white rounded-xl shadow-sm flex flex-col items-center justify-center p-3">
-                    <div className="w-10 h-10 md:w-10 md:h-10 bg-purple-50 rounded-xl flex items-center justify-center mb-2">
-                      <CheckCircle className="w-5 h-5 text-purple-500" />
+                  <div className="bg-white rounded-xl shadow-sm flex flex-col items-center justify-center p-2">
+                    <div className="w-9 h-9 bg-purple-50 rounded-xl flex items-center justify-center mb-1">
+                      <CheckCircle className="w-4 h-4 text-purple-500" />
                     </div>
-                    <span className="text-xs md:text-xs font-bold text-gray-800 text-center">Qualified<br/>Leads</span>
+                    <span className="text-[10px] font-bold text-gray-800 text-center">Qualified<br/>Leads</span>
                   </div>
-                  <div className="bg-white rounded-xl shadow-sm flex flex-col items-center justify-center p-3">
-                    <div className="w-10 h-10 md:w-10 md:h-10 bg-purple-50 rounded-xl flex items-center justify-center mb-2">
-                      <DollarSign className="w-5 h-5 text-purple-500" />
+                  <div className="bg-white rounded-xl shadow-sm flex flex-col items-center justify-center p-2">
+                    <div className="w-9 h-9 bg-purple-50 rounded-xl flex items-center justify-center mb-1">
+                      <DollarSign className="w-4 h-4 text-purple-500" />
                     </div>
-                    <span className="text-xs md:text-xs font-bold text-gray-800 text-center">Cost<br/>Savings</span>
+                    <span className="text-[10px] font-bold text-gray-800 text-center">Cost<br/>Savings</span>
                   </div>
-                  <div className="bg-white rounded-xl shadow-sm flex flex-col items-center justify-center p-3">
-                    <div className="w-10 h-10 md:w-10 md:h-10 bg-purple-50 rounded-xl flex items-center justify-center mb-2">
-                      <Zap className="w-5 h-5 text-purple-500" />
+                  <div className="bg-white rounded-xl shadow-sm flex flex-col items-center justify-center p-2">
+                    <div className="w-9 h-9 bg-purple-50 rounded-xl flex items-center justify-center mb-1">
+                      <Zap className="w-4 h-4 text-purple-500" />
                     </div>
-                    <span className="text-xs md:text-xs font-bold text-gray-800 text-center">Instant<br/>Responses</span>
+                    <span className="text-[10px] font-bold text-gray-800 text-center">Instant<br/>Responses</span>
                   </div>
                 </div>
               </div>
