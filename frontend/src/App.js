@@ -10,6 +10,7 @@ import ProcessSection from "./components/ProcessSection";
 import BookingSection from "./components/BookingSection";
 import Footer from "./components/Footer";
 import ChatWidget from "./components/ChatWidget";
+import BookingPage from "./components/BookingPage";
 
 const LandingPage = () => {
   return (
@@ -33,6 +34,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/book-demo" element={<BookingPage />} />
         </Routes>
       </BrowserRouter>
     </div>
