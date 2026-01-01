@@ -4,8 +4,8 @@ import { X, Phone, Clock, Users, DollarSign, CheckCircle, Zap, Target } from 'lu
 
 const ComparisonSection = () => {
   return (
-    <section className="py-20 px-6 md:px-12 lg:px-24 xl:px-32 bg-white">
-      <div className="max-w-5xl mx-auto">
+    <section className="py-20 px-8 md:px-16 lg:px-32 xl:px-48 bg-white">
+      <div className="max-w-4xl mx-auto">
         {/* Section Title */}
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16">
           Still Hemorrhaging Money on
