@@ -17,8 +17,8 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 px-4 pt-4">
       <div className={`mx-auto transition-all duration-300 ${
         scrolled 
-          ? 'max-w-3xl bg-white shadow-xl' 
-          : 'max-w-4xl bg-white/90 backdrop-blur-md shadow-md'
+          ? 'max-w-full md:max-w-3xl bg-white shadow-xl' 
+          : 'max-w-full md:max-w-4xl bg-white/90 backdrop-blur-md shadow-md'
       } rounded-2xl px-6`}>
         <div className="flex items-center justify-between h-[70px] md:h-[80px]">
           {/* Logo */}
