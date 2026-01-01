@@ -2,7 +2,7 @@ import React from 'react';
 
 const IntegrationSection = () => {
   return (
-    <section className="relative py-10 md:py-14 overflow-hidden">
+    <section className="relative py-8 md:py-10 overflow-hidden">
       {/* Dark purple gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900"></div>
       
@@ -14,22 +14,22 @@ const IntegrationSection = () => {
         <div className="grid lg:grid-cols-2 gap-4 md:gap-6 items-center">
           {/* Left Content */}
           <div className="text-center lg:text-left">
-            <h2 className="text-lg md:text-2xl lg:text-3xl font-bold text-white mb-2 md:mb-3 leading-tight">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-3 leading-tight">
               We can integrate seamlessly into your current workflow
             </h2>
-            <p className="text-purple-200 text-xs md:text-sm mb-3 md:mb-4">
+            <p className="text-purple-200 text-sm md:text-base mb-4">
               With the power of API's, we can integrate the FutureFlow system directly into your current tech stack
             </p>
             <a
               href="#booking"
-              className="inline-block bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded-lg font-semibold text-xs md:text-sm transition-all hover:shadow-lg"
+              className="inline-block bg-gray-900 hover:bg-gray-800 text-white px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:shadow-lg"
             >
               Book a Demo
             </a>
           </div>
 
           {/* Right - Floating Logos */}
-          <div className="relative h-36 md:h-56">
+          <div className="relative h-32 md:h-44">
             {/* Salesforce */}
             <div className="absolute top-0 right-1/4 w-10 h-10 md:w-14 md:h-14 bg-white rounded-full shadow-xl flex items-center justify-center animate-float" style={{ animationDelay: '0s' }}>
               <svg className="w-5 h-5 md:w-8 md:h-8" viewBox="0 0 48 48">
