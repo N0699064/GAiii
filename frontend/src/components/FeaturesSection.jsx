@@ -6,7 +6,7 @@ const FeaturesSection = () => {
     switch (type) {
       case 'crm':
         return (
-          <div className="h-56 bg-gradient-to-br from-gray-100 to-white rounded-xl overflow-hidden flex items-center justify-center">
+          <div className="h-56 bg-white rounded-xl overflow-hidden flex items-center justify-center">
             <img 
               src="https://customer-assets.emergentagent.com/job_c9bd9f06-9dcb-43af-b6e3-be6da472a258/artifacts/1qo7w9xq_Features_CRMIntegration.webp" 
               alt="CRM Integration"
@@ -16,7 +16,7 @@ const FeaturesSection = () => {
         );
       case 'calendar':
         return (
-          <div className="h-56 bg-gradient-to-br from-gray-200 to-gray-100 rounded-xl overflow-hidden flex items-center justify-center">
+          <div className="h-56 bg-white rounded-xl overflow-hidden flex items-center justify-center">
             <img 
               src="https://customer-assets.emergentagent.com/job_c9bd9f06-9dcb-43af-b6e3-be6da472a258/artifacts/481p7aq0_Features_CalendarBooking.webp" 
               alt="Calendar Booking"
@@ -46,7 +46,7 @@ const FeaturesSection = () => {
         );
       case 'multilingual':
         return (
-          <div className="h-56 bg-gradient-to-br from-gray-200 to-gray-100 rounded-xl overflow-hidden flex items-center justify-center">
+          <div className="h-56 bg-purple-100 rounded-xl overflow-hidden flex items-center justify-center">
             <img 
               src="https://customer-assets.emergentagent.com/job_c9bd9f06-9dcb-43af-b6e3-be6da472a258/artifacts/yz3bq18y_Features_Multi-LingualSupport.webp" 
               alt="Multi-Lingual Agents"
@@ -56,7 +56,7 @@ const FeaturesSection = () => {
         );
       case 'availability':
         return (
-          <div className="h-56 bg-gradient-to-br from-gray-100 to-white rounded-xl overflow-hidden flex items-center justify-center">
+          <div className="h-56 bg-white rounded-xl overflow-hidden flex items-center justify-center">
             <img 
               src="https://customer-assets.emergentagent.com/job_c9bd9f06-9dcb-43af-b6e3-be6da472a258/artifacts/7w6jwazs_Features_24_7Availability.webp" 
               alt="24/7 Availability"
