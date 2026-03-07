@@ -11,6 +11,7 @@ import BookingSection from "./components/BookingSection";
 import Footer from "./components/Footer";
 import ChatWidget from "./components/ChatWidget";
 import BookingPage from "./components/BookingPage";
+import SmsConsentPage from "./components/SmsConsentPage";
 
 const LandingPage = () => {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/book-demo" element={<BookingPage />} />
+          <Route path="/sms-consent" element={<SmsConsentPage />} />
         </Routes>
       </BrowserRouter>
     </div>
