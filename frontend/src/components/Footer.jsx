@@ -25,18 +25,14 @@ const Footer = () => {
             <a href="#booking" className="text-gray-400 hover:text-white transition-colors">Contact</a>
             <a href="/sms-consent" className="text-gray-400 hover:text-white transition-colors">SMS Consent</a>
             <a
-              href="https://agent-698bc5e50296b67ce2c9f55b--gai-solutions.netlify.app/privacy"
+              href="/privacy"
               className="text-gray-400 hover:text-white transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               Privacy
             </a>
             <a
-              href="https://agent-698bc5e50296b67ce2c9f55b--gai-solutions.netlify.app/terms"
+              href="/terms"
               className="text-gray-400 hover:text-white transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               Terms & Conditions
             </a>

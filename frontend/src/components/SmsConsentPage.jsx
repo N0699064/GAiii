@@ -112,10 +112,8 @@ const SmsConsentPage = () => {
               <p>
                 View our Terms and Conditions:{" "}
                 <a
-                  href="https://agent-698bc5e50296b67ce2c9f55b--gai-solutions.netlify.app/terms"
+                  href="/terms"
                   className="underline hover:text-gray-900"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Terms
                 </a>
@@ -123,10 +121,8 @@ const SmsConsentPage = () => {
               <p>
                 View our Privacy Policy:{" "}
                 <a
-                  href="https://agent-698bc5e50296b67ce2c9f55b--gai-solutions.netlify.app/privacy"
+                  href="/privacy"
                   className="underline hover:text-gray-900"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Privacy
                 </a>
