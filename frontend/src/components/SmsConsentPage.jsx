@@ -117,7 +117,7 @@ const SmsConsentPage = () => {
                   Terms
                 </a>
                 {" | "}
-                <a href="/sms opt-in consent.png" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                <a href="/sms opt-in.png" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                   View Workflow
                 </a>
               </p>
